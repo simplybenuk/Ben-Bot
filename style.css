@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+ font-size: 3rem;
+ margin: 1rem;
+}
+
+p {
+    margin: 0.5rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.fnhs-intro {
+    display: flex;
+    align-items: baseline;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.fnhs-logo {
+    width: 7.5rem;
+}
+
+
+.avatar-main {
+    width: 9.375rem;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+textarea {
+    resize: none;
+    margin: 1rem;
+    height: 4rem;
+    padding: 1rem;
+    border-radius: 3px;
+}
+
+textarea:focus::placeholder {
+    color: transparent;
+  }
+
+.btn {
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    background-color: #f59e0e;
+    color: black;
+    border-radius: 4px;
+    box-shadow: 0 4px 0 #00401e;
+    cursor: pointer;
+    margin: 1rem;
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #F4B966;
+}
+
+.btn:active {
+    background-color: #00401e;
+    color: whitesmoke;
+    box-shadow: none;  
+    top: 4px;
+
+}
+
+.btn:focus {
+    background-color: #ffeb3b;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.output-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.output-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.avatar {
+    width: 50px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.av-av {
+  margin-left: 1rem;
+}
+
+.av-ben {
+  margin-right: 1rem;
+}
+
+#elementEl {
+    background: whitesmoke;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-right: 3.75rem;
+}
+
+.response-style {
+    background: #FDF6B2;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-left: 3.75rem;
+}
+
+/* TYPEWRITER */
+  #elementEl::after {
+    content: '|';
+    margin-left: 5px;
+    animation: blink 0.7s infinite;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
