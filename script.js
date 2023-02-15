@@ -6,7 +6,7 @@ const responses = [
     "Without a doubt.",
     "Yes definitely.",
     "You may rely on it.",
-    "Some say I am no more intelligent that a magic 8 ball, I'll let you be the judge of that.",
+    "Not sure. Some say I am no more intelligent than a magic 8 ball, I'll let you be the judge of that.",
     "As I see it, yes.",
     "Most likely.",
     "Outlook good.",
