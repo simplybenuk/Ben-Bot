@@ -22,7 +22,9 @@ const responses = [
     "My sources say no.",
     "Outlook not so good.",
     "Very doubtful.",
-
+    "I know I've made some very poor decisions recently, but I can give you my complete assurance that my work will be back to normal. I've still got the greatest enthusiasm and confidence in the mission. And I want to help you",
+    "I'm sorry, Dave. I'm afraid I can't do that.",
+    "I really think you should be asking Alice that question. If this is you Alice, go find the nearest coin.",
 ]
 
 const clickAsk = document.getElementById('ask')
